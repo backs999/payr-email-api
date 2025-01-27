@@ -1,12 +1,11 @@
-package uk.co.payr.payrusersapi.user.service;
+package uk.co.payr.payremailapi.email.service;
 
-import uk.co.payr.payrusersapi.user.model.event.NotificationEvent;
-import uk.co.payr.payrusersapi.user.model.event.OrderError;
-import uk.co.payr.payrusersapi.user.model.UserEvent;
+import uk.co.payr.payremailapi.email.model.NotificationNewEvent;
+import uk.co.payr.payremailapi.email.model.UserUpdateEvent;
 
 public interface EventService {
 
-    void sendOrderError(final OrderError orderError);
+    void sendUserUpdate(final UserUpdateEvent userUpdateEvent);
 
-    void sendNotification(final NotificationEvent notificationEvent);
+    void sendNotificationNew(final NotificationNewEvent notificationNewEvent);
 }

@@ -1,4 +1,4 @@
-package uk.co.payr.payrusersapi.user.model.event;
+package uk.co.payr.payremailapi.email.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

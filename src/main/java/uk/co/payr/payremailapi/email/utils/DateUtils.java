@@ -1,4 +1,4 @@
-package uk.co.payr.payrusersapi.user.util;
+package uk.co.payr.payremailapi.email.utils;
 
 import lombok.experimental.UtilityClass;
 
